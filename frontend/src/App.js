@@ -1,26 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './LoginPage'
+import LoginPage from './LoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <h1 className='text-2xl text-purple-500 underline'>Hello, my name is Raj Simkhada</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='box-border h-screen bg-gray-700 flex justify-center items-center'>
+      <LoginPage/> 
     </div>
-  );
+  )
 }
-
 export default App;
+// Emotica is the name 
